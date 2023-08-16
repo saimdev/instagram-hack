@@ -1,0 +1,277 @@
+body{
+    background: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+input::placeholder{
+    font-size: 0.78rem;
+    /* font-weight: light; */
+}
+
+
+form{
+    margin-top: 0.8rem;
+    border: 1px solid rgba(128, 128, 128, 0.4);
+    width: 80%;
+}
+.strike {
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap; 
+}
+
+.strike > span {
+    position: relative;
+    display: inline-block;
+    color: rgb(95, 95, 95);
+}
+
+.strike > span:before,
+.strike > span:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 9999px;
+    height: 1px;
+    background: rgba(95, 95, 95, 0.3);
+}
+
+.strike > span:before {
+    right: 100%;
+    margin-right: 15px;
+}
+
+.strike > span:after {
+    left: 100%;
+    margin-left: 15px;
+}
+.login{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+.signup{
+    border: 1px solid rgba(128, 128, 128, 0.4);
+    font-size: 0.9rem;
+    padding: 1rem;
+    width: 100%;
+}
+.logo{
+    background-image: url('https://static.cdninstagram.com/rsrc.php/v3/yr/r/fzBXVxs22bH.png');
+    background-position: -46px 0;
+background-size: 468.32px 634.15px;
+flex-basis: 380.32px;
+height: 581.15px;
+margin-left:-80px;
+margin-bottom: 12px;
+margin-right: 15px;
+}
+.bottom{
+    width: 85%;
+    margin-top: 15px;
+}
+.logo-img{
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    height: 538.84px;
+    margin: 0;
+    padding: 0;
+    /* position: absolute; */
+    vertical-align: baseline;
+    width: 250px;
+    margin-left: 100px;
+    margin-top: 26px;
+}
+
+.footer-links>a{
+    font-size: 0.75rem;
+    color: gray;
+    text-decoration: none;
+}
+  .check-icon{
+      fill: #515BD4;
+  }
+
+  span{
+    font-size: 0.75rem;
+    color: gray;
+  }
+
+  .copyright{
+      margin-bottom: 50px;
+  }
+
+  .grid-container{
+      display: grid;
+  }
+
+  .menu-items>img{
+      width: 25px;
+      margin-right: 15px;
+  }
+
+  .menu-items{
+      /* position: fixed; */
+      font-size: 1rem;
+      text-decoration: none;
+      color: white;
+  }
+
+  .newsfeed-profile{
+      width: 65px;
+      clip-path:circle();
+      margin-left: -10px;
+  }
+
+  .menu-items:hover{
+    color: white;
+  }
+  select:focus{
+      outline: none;
+      border: none;
+  }
+  option:focus{
+      background: transparent;
+  }
+  .rightside-profile{
+      width: 2.5rem;
+      clip-path:circle();
+      /* border: 0.1rem solid rgb(56, 56, 56); */
+  }
+
+  .stories-profile{
+      width: 65px;
+      border-radius: 100px;
+      border: 1px solid #dd2a7b;
+  }
+
+  .menu-dots{
+      width: 20px;
+  }
+
+  .operation-icon{
+    width: 25px;
+    margin-right: 15px;
+  }
+p{
+    margin-block-start: 0 !important;
+    margin-block-end: 0 !important;
+}
+
+input[type="text"] {
+    padding-right: 50px;
+}
+
+.bottom-logos>img{
+    margin-top: 1rem;
+    margin-inline: 5px;
+    height: 40px;
+}
+
+input[type="button"] {
+    margin-left: -50px;
+    width: 50px;
+    border: none;
+    background-color: transparent;
+    color: #0d6efd;
+    padding-right: 4px;
+    padding: 0 !important;
+}
+
+input{
+    padding: 8px;
+    border-radius: 1.5rem;
+    outline: none;
+    border: none;
+}
+
+input[type="submit"] {
+    margin-left: -50px;
+    width: 50px;
+    border: none;
+    background-color: transparent;
+    color: #0d6efd;
+    padding-right: 4px;
+    padding: 0 !important;
+}
+
+input:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+  }
+
+  .bd-image{
+    height: 96px;
+    width: 144px;
+  }
+
+.suggestion-image{
+    width: 60px;
+    clip-path:circle();
+    margin-right: 1rem;
+}
+
+.editinput{
+    border-radius: 0.3rem !important;
+    padding: 0.3rem 0.5rem !important;
+    font-size: 0.9rem;
+}
+
+.comment-button:focus .comments-section{
+    display: flex;
+}
+
+input[type="file"]{
+    font-size: 0.8rem;
+}
+
+textarea{
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    font-size: 0.9rem;
+}
+
+.hover-icon{
+    width: 25px;
+}
+
+.profile-post {
+	position: relative;
+	display: flex;
+}
+
+.profile-post:hover .edit {
+	display: flex;
+}
+
+.profile-post:hover .post-image{
+    opacity: 0.4;
+}
+
+.edit {
+	margin-top: 11rem;
+    margin-left: 5rem;
+	position: absolute;
+	/* right: 0; */
+	top: 0;
+	display: none;
+}
+
+.comments{
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.view-comments:focus{
+    border: none !important;
+    outline: none !important;
+}
+
+.view-comments{
+    padding: 0 !important;
+    text-align: left !important;
+}
+
+  
+  
